@@ -1,0 +1,104 @@
+body {
+  background-color: hsl(235, 18%, 26%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.old {
+  background-color: hsl(0, 0%, 100%);
+  width: 375px;
+  height: 700px;
+  border-radius: 10px;
+}
+.update {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Arial;
+  margin-left: 30px;
+  color: hsl(234, 29%, 20%);
+}
+.join {
+  font-family: Arial;
+  font-size: 12px;
+  color: hsl(235, 18%, 26%);
+  margin: 8PX 0 0 30px;
+  }
+  .matter {
+    font-family: Arial;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    color: hsl(235, 18%, 26%);
+    margin: 8PX 0 0 30px;
+    }
+.success {
+  font-family: Arial;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  color: hsl(235, 18%, 26%);
+  margin: 0 0 0 30px;
+}
+
+.much {
+font-family: Arial;
+font-size: 12px;
+display: flex;
+align-items: center;
+flex-direction: row;
+gap: 12px;
+color: hsl(235, 18%, 26%);
+margin: 0 0 0 30px;
+}
+.address {
+font-family: Arial;
+font-size: 12px;
+font-weight: bold;
+margin: 8PX 0 0 30px;
+color: hsl(234, 29%, 20%);
+}
+.letter {
+  font-family: Arial;
+  font-size: 12px;
+  padding: 15px 20px 15px 20px;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border: none;
+  width: 310px;
+  margin: 20px 0 0 30px;
+}
+.search-bar {
+  height: 33px;
+  width: 290px;
+  border-radius: 4px;
+  border: 1px solid;
+  display: block;
+  margin: 12px 0 0 30px;
+  padding: 5px 0 5px 20px;
+  border: 1px solid;
+  border-color: hsl(231, 7%, 60%);
+}
+.product {
+  width: 300px;
+}
+.list {
+  width: 14px;
+}
+.assets {
+  width: 14px;
+}
+.more {
+  width: 14px;
+}
+.month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
