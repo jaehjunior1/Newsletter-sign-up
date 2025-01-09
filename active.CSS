@@ -1,0 +1,44 @@
+body {
+  background-color: hsl(235, 18%, 26%);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+div {
+  background-color: hsl(0, 0%, 100%);
+  width: 255px;
+  border-radius: 10px;
+  padding: 35px;
+}
+.photo {
+  width: 2rem;
+}
+.subscribe {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Arial;
+  color:  hsl(234, 29%, 20%);
+  margin: 20px 0 20px 0;
+}
+.click {
+  font-size: 11px;
+  font-family: Arial;
+  color: hsl(234, 29%, 20%);
+  margin: 0 0 30px 0;
+}
+.com {
+  font-weight: bold;
+  color: hsl(234, 29%, 20%);
+}
+.dismiss {
+  padding: 12px 80px 12px 80px;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(4, 100%, 67%);
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  box-shadow:  0 8px 8px 8px hsl(4, 100%, 95%);
+}
